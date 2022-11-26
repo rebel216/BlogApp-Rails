@@ -1,6 +1,12 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="center"  >
+<img alt="logo" width="140"  height="auto"
+src="https://user-images.githubusercontent.com/30742617/204092290-2e9c62ff-b0e8-4d74-979b-9f172f3f047c.png "/>
+ <br/>
 
-# BlogAppOnRails
+</div
+
+** **
+## BlogAppOnRails
 
 > The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
 
