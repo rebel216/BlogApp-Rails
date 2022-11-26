@@ -25,7 +25,7 @@ RSpec.describe User, type: :model do
 
     it 'Recent Posts method should show 5 posts' do
       user = described_class.create(name: 'Neeraj', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
-                                  bio: 'Teacher from India.')
+                                    bio: 'Teacher from India.')
 
       user.posts = [
         Post.new({ title: 'Post One', text: 'This is the post one' }),
@@ -40,4 +40,3 @@ RSpec.describe User, type: :model do
     end
   end
 end
-

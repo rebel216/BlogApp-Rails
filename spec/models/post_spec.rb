@@ -38,12 +38,11 @@ RSpec.describe Post, type: :model do
       @post.comments_counter = 8
       expect(@post).to be_valid
     end
-    
+
     it 'recent_comments method should return the last five comments' do
       user = User.new
 
       post = described_class.create(title: 'Post One', text: 'This is the post one')
-      
 
       post.comments = [
         Comment.new({ author: user, text: 'This is the comment one' }),
