@@ -7,7 +7,7 @@
 src="https://user-images.githubusercontent.com/30742617/204092290-2e9c62ff-b0e8-4d74-979b-9f172f3f047c.png "/>
  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Blog-APP-RAILS</b></h3>
 
 </div>
 
