@@ -33,7 +33,7 @@ RSpec.describe Post, type: :model do
       @post.comments_counter = -5
       expect(@post).to_not be_valid
     end
-    
+
     it 'if comments counter is integer' do
       @post.comments_counter = 8
       expect(@post).to be_valid
