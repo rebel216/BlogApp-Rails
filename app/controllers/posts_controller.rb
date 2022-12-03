@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   def index
     @user = User.find(params[:user_id])
-    @posts = @user.posts.includes(:comments)
+    @posts = @user.posts
   end
 
   def show
@@ -17,10 +17,9 @@ class PostsController < ApplicationController
     @post = @author.posts.new(post_params)
 
     if @post.save
-      redirect_to user_path(id: @post.author_id), notice: 'Post was successfully created'
-
+      redirect_to user_path(id: @post.author_id)
     else
-      render :new, alert: 'Error ccurred while creating the post'
+      render :new, alert: 'An error has occurred while creating the post'
     end
   end
 
