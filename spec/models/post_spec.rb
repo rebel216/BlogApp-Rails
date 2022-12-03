@@ -38,23 +38,5 @@ RSpec.describe Post, type: :model do
       @post.comments_counter = 8
       expect(@post).to be_valid
     end
-
-    it 'recent_comments method should return the last five comments' do
-      user = User.new
-
-      post = described_class.create(title: 'Post One', text: 'This is the post one')
-
-      post.comments = [
-        Comment.new({ author: user, text: 'This is the comment one' }),
-        Comment.new({ author: user, text: 'This is the comment two' }),
-        Comment.new({ author: user, text: 'This is the comment three' }),
-        Comment.new({ author: user, text: 'This is the comment four' }),
-        Comment.new({ author: user, text: 'This is the comment five' }),
-        Comment.new({ author: user, text: 'This is the comment six' })
-      ]
-
-      expect(post.recent_comments.size).to be(5)
-      expect(post.recent_comments.pluck(:id)).to match_array(post.comments.last(5).pluck(:id))
-    end
   end
 end
