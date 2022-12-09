@@ -1,23 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-Modify this file to match your project and remove sections that don't apply.
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -62,7 +44,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    
   </ul>
 </details>
 
@@ -177,6 +159,10 @@ Example:
 - Twitter: [@Neeraj-Bhardwaj](https://twitter.com/rebel216)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/neerajbhardwaj216/)
 
+👤 **Carlos Molina**
+
+- GitHub: [@cmolinan](https://github.com/cmolinan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/carlosmolinan/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
