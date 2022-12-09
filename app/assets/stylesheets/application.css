@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url("https://fonts.googleapis.com/css2?family=Lato");
 
 * {
   box-sizing: border-box;
@@ -38,7 +38,7 @@
   --light: #f1ecea;
   --dark: #00262b;
   --white: #fff;
-  --lato-font: 'Lato', sans-serif;
+  --lato-font: "Lato", sans-serif;
 }
 
 body {
@@ -243,7 +243,6 @@ nav {
 
 .input {
   font-size: 16px;
-  font-size: max(16px, 1em);
   font-family: inherit;
   padding: 0.25em 0.5em;
   background-color: #fff;
@@ -252,10 +251,10 @@ nav {
   border-radius: 4px;
 }
 
-.field{
-  display :grid;
-  grid-template-columns :auto;
-  grid-gap :0.5rem 1rem;
+.field {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 0.5rem 1rem;
   justify-items: center;
   position: relative;
 }
@@ -263,7 +262,6 @@ nav {
 .lable {
   position: relative;
   font-size: 16px;
-  font-size: max(16px, 1em);
   margin-top: 30px;
   font-family: inherit;
   padding: 0.25em 0.5em;
