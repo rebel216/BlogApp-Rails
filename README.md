@@ -111,11 +111,13 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with the steps below:
 
-```sh
-  bundle install
-```
+- After cloning type `cd BlogApp-Rails` to access the project on the terminal.
+- Run `bundle install` to install all the required dependancies.
+- Create Database with `rails db:create`
+- Migrate Database with `rails db:migrate`
+
 
 ### Usage
 
